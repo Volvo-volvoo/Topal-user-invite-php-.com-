@@ -83,7 +83,7 @@ button:hover {
         Solde de Dépôt: <strong>00 FCFA</strong>
     </div>
     <form id="rechargeForm">
-        <input type="number" id="amount" name="amount" placeholder="Montant à recharger" min="6500" required>
+        <input type="number" id="amount" name="amount" placeholder="Montant à recharger" min="6000" required>
         <select id="paymentMethod" name="paymentMethod" required>
             <option value="">Veuillez choisir un mode de paiement</option>
             <option value="mtn">MTN</option>
@@ -105,8 +105,8 @@ button:hover {
         var paymentDetails = {
             mtn: '+225 0554049897',
             moov: '0140719995',
-            orange: '0703037591',
-            wave: '0703037591',
+            orange: 'indisponible',
+            wave: '0554049897',
             usd: '0x1f6deDA99A476Dc6CA40A66291186cbbe7319917'
         };
         
